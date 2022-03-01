@@ -10,7 +10,7 @@ const linkUrl = process.env.UK_LINK_URL;
 const get = process.env.UK_GET;
 const getUrl = process.env.UK_GET_URL;
 
-const symbolUrl = 'https://upload.wikimedia.org/wikipedia/commons/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg';
+const symbolUrl = 'https://bianocz.github.io/ua-banner/assets/lcoa.svg';
 
 document.body.insertAdjacentHTML(
 	'beforeend',
