@@ -1,0 +1,31 @@
+{
+  "name": "ua-banner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "webpack --config webpack.config.css.js",
+    "build:js:cz": "webpack --config webpack.config.js.js --env locale=cz",
+    "build:js:sk": "webpack --config webpack.config.js.js --env locale=sk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BianoCZ/ua-banner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BianoCZ/ua-banner/issues"
+  },
+  "homepage": "https://github.com/BianoCZ/ua-banner#readme",
+  "devDependencies": {
+    "css-loader": "^6.6.0",
+    "css-minimizer-webpack-plugin": "^3.4.1",
+    "dotenv": "^16.0.0",
+    "dotenv-webpack": "^7.1.0",
+    "mini-css-extract-plugin": "^2.5.3",
+    "webpack": "^5.69.1",
+    "webpack-cli": "^4.9.2"
+  }
+}

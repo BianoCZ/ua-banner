@@ -1,0 +1,59 @@
+.ukr {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 9999;
+
+    width: 100%;
+    min-height: 64px;
+    display: flex;
+
+    background-image: linear-gradient(#0066cc 50%, #ffcc00 50%);
+
+    font-family: Arial, sans-serif;
+}
+
+.ukr_flag {
+    flex: 1 1 auto;
+}
+
+.ukr_symbol {
+    flex: 0;
+    padding: 8px;
+}
+
+.ukr_title, .ukr_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+
+    box-sizing: border-box;
+    height: 50%;
+    padding: 8px;
+}
+
+.ukr_title {
+    color: #fff;
+}
+
+.ukr_link {
+    color: #000;
+    text-decoration: underline;
+}
+
+.ukr_get {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    background-color: #0066cc;
+    border-left: 4px solid #ffcc00;
+    padding: 8px 16px;
+    max-width: 130px;
+    text-decoration: inherit;
+    flex: 0 2 auto;
+}
