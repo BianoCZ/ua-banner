@@ -3,7 +3,7 @@ layout: default
 permalink: /
 ---
 
-## How to implement
+<h2>How to implement</h2>
 
 This is a simple banner you can place on your website. This banner will guide your visitors to information about how to reliably and effectively help Ukraine and its people.
 
@@ -56,6 +56,10 @@ Released language versions:
 
 {% endfor %}
 
+# Слава Україні!
+
+---
+
 ### Previous releases
 
 {% for release in site.github.releases offset:1 %}
@@ -69,5 +73,3 @@ Released language versions:
   {% endfor %}
 
 {% endfor %}
-
-# Слава Україні!

@@ -1,7 +1,6 @@
 title: Help for Ukraine web banner
 email: it@biano.com
-#repository: "BianoCZ/ua-banner"
-repository: "Andrewsville/test"
+repository: "BianoCZ/ua-banner"
 show_downloads: true
 
 # Build settings
@@ -9,5 +8,3 @@ remote_theme: pages-themes/slate@v0.2.0
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-collections:
-  - dist
