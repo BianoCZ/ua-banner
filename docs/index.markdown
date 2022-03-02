@@ -22,17 +22,31 @@ Without any further configuration it will display the banner pointing your visit
 
 ## Releases
 
-We recommend you use the latest released version for your language. 
+We recommend you use the latest released version for your language: 
 
-{% for release in site.github.releases %}
+{% for release in site.github.releases limit:1 %}
 
-### [{{ release.tag_name }}]({{ release.html_url }})
+### {{ release.tag_name }}
 
 Released language versions:
 
 {% for asset in release.assets %}
 * [{{ asset.name | slice: 0,2 | upcase }}]({{ site.github.url }}/dist/{{ asset.name }})
 {% endfor %}
+
+{% endfor %}
+
+### Previous releases
+
+{% for release in site.github.releases offset:1 %}
+
+#### {{ release.tag_name }}
+
+Released language versions:
+
+{% for asset in release.assets %}
+* [{{ asset.name | slice: 0,2 | upcase }}]({{ site.github.url }}/dist/{{ asset.name }})
+  {% endfor %}
 
 {% endfor %}
 
