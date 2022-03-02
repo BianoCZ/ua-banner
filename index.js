@@ -18,7 +18,7 @@ const getUrl = process.env.UK_GET_URL;
 
 document.body.insertAdjacentHTML(
 	'beforeend',
-	`<div class="ukr" style="z-index: ${zIndex}"><img class="ukr_symbol" src="${symbolUrl}" width="34px" alt="uk"><div class="ukr_flag"><div class="ukr_title">${title}</div><a class="ukr_link" href="${linkUrl}" target="_blank" rel="noopener">${link}</a></div><a class="ukr_get" href="${getUrl}" target="_blank" rel="noopener">${get}</a></div>`
+	`<div class="ukr" style="z-index: ${zIndex}"><img class="ukr_symbol" src="${symbolUrl}" width="34px" alt="uk"><div class="ukr_flag"><div class="ukr_title">${title}</div><a class="ukr_link" href="${linkUrl}" target="_blank" rel="nofollow noopener">${link}</a></div><a class="ukr_get" href="${getUrl}" target="_blank" rel="nofollow noopener">${get}</a></div>`
 );
 
 document.body.style.paddingBottom = document.body.lastElementChild.clientHeight + 'px';
