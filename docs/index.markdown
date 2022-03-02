@@ -21,6 +21,21 @@ Without any further configuration it will display the banner pointing your visit
 * SK: [https://ktopomozeukrajine.sk/](https://ktopomozeukrajine.sk/)
 * PT: [https://www.cruzvermelha.pt/not%C3%ADcias/item/7837-crise-na-ucr%C3%A2nia-apelo-humanit%C3%A1rio.html](https://www.cruzvermelha.pt/not%C3%ADcias/item/7837-crise-na-ucr%C3%A2nia-apelo-humanit%C3%A1rio.html)
 
+### Optional configuration
+
+You can optionally configure the banner behavior by setting a window variable.
+
+```html
+<script>
+window.UA_BANNER = {
+    zIndex: 123,
+    title: 'HELP UKRAINE',
+    link: 'Get involved too. Click and find out how you can help.',
+    linkUrl: 'https://www.peopleinneed.net/donate/once',
+};
+</script>
+```
+
 ## Releases
 
 We recommend you use the latest released version for your language: 

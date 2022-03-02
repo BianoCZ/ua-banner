@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/BianoCZ/ua-banner#readme",
   "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.3",
     "css-loader": "^6.6.0",
     "css-minimizer-webpack-plugin": "^3.4.1",
     "dotenv": "^16.0.0",
