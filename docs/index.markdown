@@ -19,6 +19,7 @@ Without any further configuration it will display the banner pointing your visit
 
 * CZ: [https://www.stojimezaukrajinou.cz/](https://www.stojimezaukrajinou.cz/)
 * SK: [https://ktopomozeukrajine.sk/](https://ktopomozeukrajine.sk/)
+* PT: [https://www.cruzvermelha.pt/not%C3%ADcias/item/7837-crise-na-ucr%C3%A2nia-apelo-humanit%C3%A1rio.html](https://www.cruzvermelha.pt/not%C3%ADcias/item/7837-crise-na-ucr%C3%A2nia-apelo-humanit%C3%A1rio.html)
 
 ## Releases
 

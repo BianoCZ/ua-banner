@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:css": "webpack --config webpack.config.css.js",
     "build:js:cz": "webpack --config webpack.config.js.js --env locale=cz",
-    "build:js:sk": "webpack --config webpack.config.js.js --env locale=sk"
+    "build:js:sk": "webpack --config webpack.config.js.js --env locale=sk",
+    "build:js:pt": "webpack --config webpack.config.js.js --env locale=pt"
   },
   "repository": {
     "type": "git",
