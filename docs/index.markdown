@@ -10,7 +10,7 @@ This is a simple banner you can place on your website. This banner will guide yo
 Simply link a single minified JavaScript file like this example:
 
 ```html
-<script src="{% for asset in site.github.latest_release.assets limit:1 %}{{ site.github.url }}/dist/{{ asset.name }}{% endfor %}"></script>
+<script src="{% for asset in site.github.latest_release.assets limit:1 %}{{ site.github.url }}/dist/{{ asset.name }}{% endfor %}" defer></script>
 ```
 
 You can choose the latest version in different languages below. 
@@ -23,7 +23,7 @@ Without any further configuration it will display the banner pointing your visit
 
 ### Optional configuration
 
-You can optionally configure the banner behavior by setting a window variable.
+You can optionally configure the banner behavior by setting a window variable (before loading the script).
 
 ```html
 <script>
@@ -31,9 +31,10 @@ window.UA_BANNER = {
     zIndex: 123,
     title: 'HELP UKRAINE',
     link: 'Get involved too. Click and find out how you can help.',
-    linkUrl: 'https://www.peopleinneed.net/donate/once',
+    linkUrl: 'https://supportukrainenow.org',
 };
 </script>
+<script src="{% for asset in site.github.latest_release.assets limit:1 %}{{ site.github.url }}/dist/{{ asset.name }}{% endfor %}" defer></script>
 ```
 
 ## Releases
