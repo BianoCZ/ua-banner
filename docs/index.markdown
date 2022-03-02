@@ -17,9 +17,12 @@ You can choose the latest version in different languages below.
 
 Without any further configuration it will display the banner pointing your visitors to the predefined location depending on the language version:
 
-* CZ: [https://www.stojimezaukrajinou.cz/](https://www.stojimezaukrajinou.cz/)
-* SK: [https://ktopomozeukrajine.sk/](https://ktopomozeukrajine.sk/)
+* CZ: [https://www.stojimezaukrajinou.cz](https://www.stojimezaukrajinou.cz)
+* EN: [https://supportukrainenow.org](https://supportukrainenow.org)
+* HU: [https://segelyszervezet.hu/kampanyok/haboru-ukrajnaban](https://segelyszervezet.hu/kampanyok/haboru-ukrajnaban)
 * PT: [https://www.cruzvermelha.pt/not%C3%ADcias/item/7837-crise-na-ucr%C3%A2nia-apelo-humanit%C3%A1rio.html](https://www.cruzvermelha.pt/not%C3%ADcias/item/7837-crise-na-ucr%C3%A2nia-apelo-humanit%C3%A1rio.html)
+* RO: [https://dopomoha.ro/ro](https://dopomoha.ro/ro)
+* SK: [https://ktopomozeukrajine.sk](https://ktopomozeukrajine.sk)
 
 ### Optional configuration
 
