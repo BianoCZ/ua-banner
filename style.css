@@ -5,6 +5,7 @@
 
     width: 100%;
     min-height: 64px;
+    max-height: 100px;
     display: flex;
 
     background-image: linear-gradient(#0066cc 50%, #ffcc00 50%);
@@ -12,6 +13,20 @@
     font-family: Arial, sans-serif;
     line-height: normal;
     letter-spacing: -0.2px;
+}
+
+.ukr_close {
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    background-color: #ffcc00;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
 }
 
 .ukr_flag {
