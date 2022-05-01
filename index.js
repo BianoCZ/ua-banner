@@ -2,9 +2,15 @@ import css from './dist/style.min.css';
 
 (() => {
 	const HIDE_KEY = 'ua_banner_hide';
+	const HIDE_EXPIRATION = 14 * 24 * 60 * 60 * 1000;
 
-	if (window.sessionStorage.getItem(HIDE_KEY)) {
-		return;
+	const hideExpirationTime = window.localStorage.getItem(HIDE_KEY) ?? 0;
+	if (hideExpirationTime) {
+		if (new Date().getTime() <= hideExpirationTime) {
+			return;
+		}
+
+		window.localStorage.removeItem(HIDE_KEY);
 	}
 
 	const style = document.createElement('style');
@@ -33,7 +39,7 @@ import css from './dist/style.min.css';
 	document.body.style.paddingBottom = banner.clientHeight + 'px';
 
 	banner.querySelector('.ukr_close').addEventListener('click', () => {
-		window.sessionStorage.setItem(HIDE_KEY, '1');
+		window.localStorage.setItem(HIDE_KEY, new Date().getTime() + HIDE_EXPIRATION);
 		banner.remove();
 	});
 })();
